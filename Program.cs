@@ -22,7 +22,12 @@ namespace FindMax
             Console.WriteLine($"Max float value is {testf2}");
             Console.WriteLine($"Max float value is {testf3}");
 
-          
+            string strtest1 = MaxNumber.MaxStringNumber("apple", "banana", "peach");
+            string strtest2 = MaxNumber.MaxStringNumber("banana", "apple", "peach");
+            string strtest3 = MaxNumber.MaxStringNumber("peach", "banana", "apple");
+            Console.WriteLine($"Max string value is {strtest1}");
+            Console.WriteLine($"Max string value is {strtest2}");
+            Console.WriteLine($"Max stringvalue is {strtest3}");
 
             Console.ReadKey();
 
