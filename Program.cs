@@ -15,8 +15,14 @@ namespace FindMax
             Console.WriteLine($"Max value is {test2}");
             Console.WriteLine($"Max value is {test3}");
 
+            double testf1 = MaxNumber.ReturnMaxFloat(9.1, 3.4, 4.9);
+            double testf2= MaxNumber.ReturnMaxFloat(3.4, 9.1, 4.9);
+            double testf3= MaxNumber.ReturnMaxFloat(9.0, 5.0, 9.1);
+            Console.WriteLine($"Max float value is {testf1}");
+            Console.WriteLine($"Max float value is {testf2}");
+            Console.WriteLine($"Max float value is {testf3}");
 
-
+          
 
             Console.ReadKey();
 
